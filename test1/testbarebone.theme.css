@@ -1,0 +1,64 @@
+/* Background image */
+
+.app, .callout-backdrop {
+background: url(https://imgur.com/TAhoyVZ.png) !important;
+background-size: cover !important;
+}
+
+/* transparent areas */
+
+.chat, .account, .typing, .content, .guild-channels, .private-channels, .guild-header, .divider-red span, .messages-wrapper, #voice-connection {
+background: transparent !important;
+}
+
+/* Server list area */
+
+.guilds-wrapper {
+background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Channels list area */
+
+.channels-wrap {
+background: rgba(0, 0, 0, 0.7) !important;
+}
+.guild-channels .channel-text.selected {
+background: linear-gradient(90deg,rgba(0,0,0,0.55) 85%,rgba(0, 0, 0, 0));
+}
+.guild-channels .channel-text:hover {
+background: linear-gradient(90deg,rgba(0,0,0,0.65) 85%,rgba(0, 0, 0, 0));
+}
+
+/* Header and Header Drop Down */
+
+.guild-header header {
+background-color: rgba(0, 0, 0, 0.55);
+}
+.guild-header header:hover {
+background-color: rgba(0, 0, 0, 0.7);
+}
+.guild-header ul {
+top: 13px;
+}
+.guild-header.guild-header-open ul {
+top: 57px;
+}
+
+/* Chat area */
+
+.content .flex-spacer {
+background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* User list area */
+
+.channel-members {
+background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Title Wrap */
+
+.chat .title-wrap {
+background-color: rgba(0, 0, 0, 0.85) !important;
+border-bottom: 1px solid transparent !important;
+}
