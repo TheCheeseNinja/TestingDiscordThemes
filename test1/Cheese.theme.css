@@ -1,9 +1,9 @@
-//META{"name":"Cheese","description":"Cheese","version":"5"}*//{}
+//META{"name":"Cheese","description":"Cheese"
 /* "ClearVision - Sapphire v5" by @Zerthox */
 /* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+@import url(https://raw.githubusercontent.com/TheCheeseNinja/TestingDiscordThemes/master/test1/Cheese_base.min.css);
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -47,7 +47,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://github.com/TheCheeseNinja/TestingDiscordThemes/raw/master/test1/jRTOtQP.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://github.com/TheCheeseNinja/TestingDiscordThemes/blob/master/test1/jRTOtQP.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
